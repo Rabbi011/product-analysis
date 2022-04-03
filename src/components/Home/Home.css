@@ -1,0 +1,10 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+   
+}
+.home-container img{
+    height: 500px;
+    width: 500px;
+}

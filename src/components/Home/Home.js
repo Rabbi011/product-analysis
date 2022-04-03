@@ -1,12 +1,30 @@
 import React from 'react';
+import './Home.css';
+
 
 const Home = () => {
     return (
-        <div>
-             <h1 className='text-6xl'>Your next Air Buds</h1>
-            <h1 className='text-6xl'>Your Best Air Buds</h1>
-            <h1>This is home</h1>
-        </div>
+        <section>
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className='col-6 mx-auto'>
+                        <h1>This is bord</h1>
+                        <h1>this nerhta</h1>
+                        <div>
+                            <a href="/">Buds</a>
+                        </div>
+
+                    </div>
+                    <div className='col-6'>
+
+                        <img src="./images/air-buds-1.jpg" className='img-fluid animated' alt="" />
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
     );
 };
 
