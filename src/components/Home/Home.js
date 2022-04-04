@@ -37,11 +37,13 @@ const Home = () => {
 
             <div>
                 <div className='container'>
-                    <h1 className='my-5'>This is reviews:({reviews.length -3})</h1>
+                <h1 className='my-5'>This is reviews:({reviews.length - 3})</h1>
                     {
+                        
                         reviews.slice(0,3).map(review =>
+                            
                             <Card className="text-center bg-dark text-white mb-3">
-                                <Card.Header className='fs-2'>Name :{review.name}</Card.Header>
+                                <Card.Header className='fs-2'>Name : {review.name}</Card.Header>
                                 <Card.Body>
                                     <Card.Text>Review : {review.review}</Card.Text>
                                     <Card.Text>Star : {review.star}</Card.Text>

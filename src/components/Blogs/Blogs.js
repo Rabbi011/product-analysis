@@ -15,11 +15,6 @@ const Blogs = () => {
                 <h3>Block inline and inline-block elements difference.</h3>
                 <p>inline-block It's formatted similarly to the inline element, with the exception that it doesn't begin on a new line. Other hand A block-level element always begins on a new line and occupies the entire available width. The main difference between inline and inline-block is that inline-block allows you to specify the element's width and height. Also, top and bottom margins and paddings are ignored with display: inline, but they are respected with display: inline-block.</p>
             </div>
-            
-           
-
-
-
         </div>
     );
 };
