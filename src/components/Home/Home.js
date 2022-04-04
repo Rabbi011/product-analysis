@@ -6,7 +6,7 @@ import './Home.css';
 
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews()
+    const [reviews] = useReviews()
     return (
         <section>
             <div className='container-fluid d-flex align-item-center'>
@@ -37,11 +37,11 @@ const Home = () => {
 
             <div>
                 <div className='container'>
-                <h1 className='my-5'>This is reviews:({reviews.length - 3})</h1>
+                    <h1 className='my-5'>This is reviews:({reviews.length - 3})</h1>
                     {
-                        
-                        reviews.slice(0,3).map(review =>
-                            
+
+                        reviews.slice(0, 3).map(review =>
+
                             <Card className="text-center bg-dark text-white mb-3">
                                 <Card.Header className='fs-2'>Name : {review.name}</Card.Header>
                                 <Card.Body>
@@ -50,9 +50,11 @@ const Home = () => {
                                 </Card.Body>
 
                             </Card>
+                            
                         )
                     }
                 </div>
+                
                 <NavLink to='/reviews' className='btn-get-started'>
                     See All Reviews
                 </NavLink>
