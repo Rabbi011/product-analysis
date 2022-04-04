@@ -11,7 +11,7 @@ const Dashboard = () => {
 
             <div className='container mt-5'>
                 <div className='row'>
-                    <div className='col-6 col-sm'>
+                    <div className='col-6'>
                         <h3 className='text-info mb-3 fw-bolder'>Month With Sell</h3>
                         <LineChart width={400} height={400} data={graphs}>
                             <Line dataKey={'sell'}></Line>
@@ -22,7 +22,7 @@ const Dashboard = () => {
                         </LineChart>
                     </div>
 
-                    <div className='col-6 col-sm'>
+                    <div className='col-6'>
                         <h3 className='text-info mb-3 fw-bolder'>Investment Vs Revenue</h3>
                         <AreaChart
                             width={500}
@@ -43,7 +43,7 @@ const Dashboard = () => {
                             <Area type="monotone" dataKey="revenue" stroke="green" fill="green" />
                         </AreaChart>
                     </div>
-                    <div class="col-6 col-sm">
+                    <div className='col-6'>
 
                         <h3 className='text-info mb-3 mt-5 fw-bolder'>Investment Vs Revenue</h3>
                         <BarChart
@@ -67,8 +67,8 @@ const Dashboard = () => {
                         </BarChart>
 
                     </div>
-                    <div className="col-6 col-sm">
-                    <h3 className='text-info mb-3 mt-5 fw-bolder'>Investment Vs Revenue</h3>
+                    <div className="col-6">
+                        <h3 className='text-info mb-3 mt-5 fw-bolder'>Investment Vs Revenue</h3>
                         <PieChart width={400} height={400}>
                             <Pie data={graphs} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
 
@@ -79,7 +79,7 @@ const Dashboard = () => {
 
                 </div>
             </div>
-            
+
         </div >
     );
 };

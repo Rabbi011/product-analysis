@@ -7,5 +7,5 @@ check my website link: https://incredible-lamington-9ac9fe.netlify.app/
 * Create Reviews API
 * Using Bootstrap and Vanilla css
 * Using React Router, Recharts
-* Responsive Using by Bootstrap 
+* Some Responsive Using by Bootstrap 
 
