@@ -4,7 +4,25 @@
     /* justify-content: center; */
    
 }
-.home-container img{
+/* .home-container img{
     height: 500px;
     width: 500px;
+} */
+.btn-get-started{
+    font-weight: 500px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #2398bd;
+    border: 2px solid #2398bd;
+    text-decoration: none;
+}
+.btn-get-started:hover{
+    background-color:#2398bd ;
+    color: white;
+}
+.home-text-design{
+    color: rgb(15, 151, 151);
 }

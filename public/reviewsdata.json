@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Chain",
+        "review": "It is a very good product",
+        "id": 1,
+        "img": 10401,
+        "star" :4.5
+    },
+    {
+        "name": "Abhishek",
+        "review": "Everything feature justifies the price but battery drains within 3 hours on call it goes maximum of 2 hours",
+        "id": 2,
+        "img": 10401,
+        "star" :3.5
+    },
+    {
+        "name": "Helen Spinner",
+        "review": "ANC in this price range definitely is a game changer. Its not the best but, its better than nothing.",
+        "id": 3,
+        "img": 10401,
+        "star" :5
+    },
+    {
+        "name": "Nagaraj",
+        "review": "Buds is very premium look nd it's worth for money, anc is pretty good nd bass quality is excellent ....... Love this airbud.......",
+        "id": 4,
+        "img": 10401,
+        "star" :5
+    },
+    {
+        "name": "Rudra prathap",
+        "review": "One ear bud stop working after a few hours of use......",
+        "id": 5,
+        "img": 10401,
+        "star" :3
+    },
+    {
+        "name": "Subodh Kumar",
+        "review": "It had been almost 4 month using this realme buds and I have change my earphones 4 time by visiting service centre.Some time one side does not work.",
+        "id": 6,
+        "img": 10401,
+        "star" :1
+    }
+
+]
