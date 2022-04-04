@@ -1,11 +1,12 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import './Home.css';
 
 
 const Home = () => {
-    const [review,setReview] = useReviews()
+    const [reviews, setReviews] = useReviews()
     return (
         <section>
             <div className='container-fluid d-flex align-item-center'>
@@ -33,11 +34,23 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
-                
-                <h1>Customer Reviews ({review.length})</h1>
 
-                
+            <div>
+                <div className='container'>
+                    <h1 className='my-5'>This is reviews:({reviews.length})</h1>
+                    {
+                        reviews.map(review =>
+                            <Card className="text-center bg-dark text-white mb-3">
+                                <Card.Header className='fs-2'>Name :{review.name}</Card.Header>
+                                <Card.Body>
+                                    <Card.Text>Review : {review.review}</Card.Text>
+                                    <Card.Text>Rating : {review.star}</Card.Text>
+                                </Card.Body>
+
+                            </Card>
+                        )
+                    }
+                </div>
                 <NavLink to='/reviews' className='btn-get-started'>
                     See All Reviews
                 </NavLink>
